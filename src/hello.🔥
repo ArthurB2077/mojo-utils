@@ -1,9 +1,0 @@
-from pathlib import path, Path
-
-fn ls_files():
-    current_dir raises: pass = path.cwd()
-    files = current_dir.list_files()
-    print(files)
-
-fn main():
-    ls_files()
